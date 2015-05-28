@@ -1,0 +1,15 @@
+CreateTraining: width:16,height:16,type:RGB 
+Input: image:./coins/1lipa.jpg, identity:1lipa
+Input: image:./coins/2lipe.jpg, identity:2lipe
+Input: image:./coins/5lipa.jpg, identity:5lipa
+Input: image:./coins/10lipa.jpg, identity:10lipa
+Input: image:./coins/20lipa.jpg, identity:20lipa
+Input: image:./coins/50lipa.jpg, identity:50lipa
+Input: image:./coins/1kuna.jpg, identity:1kuna
+Input: image:./coins/2kune.jpg, identity:2kune
+Input: image:./coins/5kuna.jpg, identity:5kuna
+Network: hidden1:100, hidden2:0
+Train: Mode:GUI, Minutes:1, StrategyError:0.25, StrategyCycles:50
+Whatis: image:./coins/5lipa.jpg 
+Whatis: image:./coins/50lipa.jpg
+Whatis: image:./coins/5kuna.jpg
